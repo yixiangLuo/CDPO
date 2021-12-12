@@ -1,0 +1,58 @@
+```{r setup, echo = FALSE, message=FALSE, warning=FALSE}
+library(here)
+library(igraph)
+
+# source(here("R", "experiment.R"))
+source(here("R", "ATE_methods.R"))
+source(here("R", "mod_knockoff.R"))
+source(here("R", "data.R"))
+source(here("R", "plot.R"))
+```
+
+
+
+```{r fig.height=7}
+p <- 100
+n <- 400
+
+adj_mat <- create_adj_mat(p, X_pi1 = 0.3, X_signal = quote(0.2 * rbinom(1, 1, 0.5) * runif(1, 1, 2)),
+                          XY_pi1 = max(0.5, 5/p), XY_signal = quote(rbinom(1, 1, 0.5) * runif(1, 0.5, 1)))
+colnames(adj_mat) <- c(1:p, "Y")
+
+n_level <- 2
+levels <- rep(n_level, p)
+levels[1 : (n_level * floor(p/n_level))] <- rep(1:n_level, each = floor(p/n_level))
+
+# graph <- graph_from_adjacency_matrix(adj_mat, weighted = T)
+# plot.igraph(graph)
+
+# causes_true <- which(adj_mat[, p+1] != 0)
+true_effects <- get_causes_effect(adj_mat, levels)
+causes_true <- which(true_effects != 0)
+
+data <- generate_data(n, adj_mat, noise = quote(rnorm(1)))
+X <- data$X
+y <- data$y
+
+# causes_found <- causal_discover.ATE(X, y, levels, causal_infer.Hajek, alpha = 0.05)
+causes_found <- causal_discover.kn(X, y, levels, alpha = 0.2)
+
+print("ture causes:")
+print(causes_true)
+print("founded causes:")
+print(causes_found)
+```
+
+
+```{r fig.height=7}
+source(here("expr", "do_expr.R"))
+```
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Formulation and assumptions}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{A motivating example}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Notations and formulation}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Assumputions}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Proposed methods}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{General setting}{section.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.1.1}{inference on individual treatment}{subsection.3.1}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.2}{multiple testing procedures}{subsection.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Gaussian graphical model}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Formulation}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Modify the knockoff method}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Simulation studies}{}% 13
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 14

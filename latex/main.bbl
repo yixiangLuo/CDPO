@@ -1,0 +1,97 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barber and Cand{\`e}s(2015)]{barber15}
+Rina~Foygel Barber and Emmanuel~J Cand{\`e}s.
+\newblock Controlling the false discovery rate via knockoffs.
+\newblock \emph{The Annals of Statistics}, 43\penalty0 (5):\penalty0
+  2055--2085, 2015.
+
+\bibitem[Benjamini and Hochberg(1995)]{benjamini1995controlling}
+Yoav Benjamini and Yosef Hochberg.
+\newblock Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing.
+\newblock \emph{Journal of the Royal statistical society: series B
+  (Methodological)}, 57\penalty0 (1):\penalty0 289--300, 1995.
+
+\bibitem[Benjamini and Yekutieli(2001)]{benjamini2001control}
+Yoav Benjamini and Daniel Yekutieli.
+\newblock The control of the false discovery rate in multiple testing under
+  dependency.
+\newblock \emph{Annals of statistics}, pages 1165--1188, 2001.
+
+\bibitem[Candes et~al.(2018)Candes, Fan, Janson, and Lv]{candes2018panning}
+Emmanuel Candes, Yingying Fan, Lucas Janson, and Jinchi Lv.
+\newblock Panning for gold:‘model-x’knockoffs for high dimensional
+  controlled variable selection.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 80\penalty0 (3):\penalty0 551--577, 2018.
+
+\bibitem[Chickering(2002)]{chickering2002optimal}
+David~Maxwell Chickering.
+\newblock Optimal structure identification with greedy search.
+\newblock \emph{Journal of machine learning research}, 3\penalty0
+  (Nov):\penalty0 507--554, 2002.
+
+\bibitem[Gelman(2011)]{gelman2011causality}
+Andrew Gelman.
+\newblock Causality and statistical learning, 2011.
+
+\bibitem[Gelman and Imbens(2013)]{gelman2013ask}
+Andrew Gelman and Guido Imbens.
+\newblock Why ask why? forward causal inference and reverse causal questions.
+\newblock Technical report, National Bureau of Economic Research, 2013.
+
+\bibitem[Shimizu et~al.(2006)Shimizu, Hoyer, Hyv{\"a}rinen, Kerminen, and
+  Jordan]{shimizu2006linear}
+Shohei Shimizu, Patrik~O Hoyer, Aapo Hyv{\"a}rinen, Antti Kerminen, and Michael
+  Jordan.
+\newblock A linear non-gaussian acyclic model for causal discovery.
+\newblock \emph{Journal of Machine Learning Research}, 7\penalty0 (10), 2006.
+
+\bibitem[Shimizu et~al.(2011)Shimizu, Inazumi, Sogawa, Hyv{\"a}rinen, Kawahara,
+  Washio, Hoyer, and Bollen]{shimizu2011directlingam}
+Shohei Shimizu, Takanori Inazumi, Yasuhiro Sogawa, Aapo Hyv{\"a}rinen,
+  Yoshinobu Kawahara, Takashi Washio, Patrik~O Hoyer, and Kenneth Bollen.
+\newblock Directlingam: A direct method for learning a linear non-gaussian
+  structural equation model.
+\newblock \emph{The Journal of Machine Learning Research}, 12:\penalty0
+  1225--1248, 2011.
+
+\bibitem[Spirtes et~al.(2000)Spirtes, Glymour, Scheines, and
+  Heckerman]{spirtes2000causation}
+Peter Spirtes, Clark~N Glymour, Richard Scheines, and David Heckerman.
+\newblock \emph{Causation, prediction, and search}.
+\newblock MIT press, 2000.
+
+\bibitem[Wang et~al.(2013)Wang, Zhou, and Geng]{wang2013discovering}
+Changzhang Wang, You Zhou, and Zhi Geng.
+\newblock Discovering causes and effects of a given node in bayesian networks.
+\newblock \emph{Frontiers of Mathematics in China}, 8\penalty0 (3):\penalty0
+  643--663, 2013.
+
+\bibitem[Wang et~al.(2014)Wang, Zhou, Zhao, and Geng]{wang2014discovering}
+Changzhang Wang, You Zhou, Qiang Zhao, and Zhi Geng.
+\newblock Discovering and orienting the edges connected to a target variable in
+  a dag via a sequential local learning approach.
+\newblock \emph{Computational Statistics \& Data Analysis}, 77:\penalty0
+  252--266, 2014.
+
+\bibitem[Xie and Geng(2008)]{xie2008recursive}
+Xianchao Xie and Zhi Geng.
+\newblock A recursive method for structural learning of directed acyclic
+  graphs.
+\newblock \emph{The Journal of Machine Learning Research}, 9:\penalty0
+  459--483, 2008.
+
+\bibitem[Xie et~al.(2006)Xie, Geng, and Zhao]{xie2006decomposition}
+Xianchao Xie, Zhi Geng, and Qiang Zhao.
+\newblock Decomposition of structural learning about directed acyclic graphs.
+\newblock \emph{Artificial Intelligence}, 170\penalty0 (4-5):\penalty0
+  422--439, 2006.
+
+\end{thebibliography}
